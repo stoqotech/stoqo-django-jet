@@ -28,7 +28,7 @@ def get_install_requires():
 
 setup(
     name='django-jet',
-    version=__import__('jet').VERSION,
+    version='1.1.0',
     description='Modern template for Django admin interface with improved functionality',
     long_description=read('README.rst'),
     author='Denis Kildishev',
